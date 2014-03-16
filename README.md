@@ -1,4 +1,4 @@
 mod-named-pipe
 ==============
 
-Shinken module for listening exteranl commands from a Unix named pipe (like nagios)
+Shinken module for listening external commands from a Unix named pipe (like Nagios)
