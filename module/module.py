@@ -124,6 +124,7 @@ class Named_Pipe_arbiter(BaseModule):
                 inputready, outputready, exceptready = select.select(input, [], [], 1)
             except select.error, e:
                 if e.args[0] == errno.EINTR:
+                    os.unlink(self.pipe_path)
                     logger.info("[%s] Received exit signal. Bailing out." % self.get_name())
                     return
             
