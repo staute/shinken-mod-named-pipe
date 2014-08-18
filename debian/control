@@ -8,13 +8,15 @@ Standards-Version: 3.9.5
 XS-Python-Version: >= 2.5, << 3.0
 Vcs-Git: git://anonscm.debian.org/pkg-shinken/shinken-mod-named-pipe.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-shinken/shinken-mod-named-pipe.git;a=summary
-Homepage: http://shinken.io/package/shinken-mod-named-pipe
+Homepage: http://shinken.io/package/named-pipe
 
 Package: shinken-mod-named-pipe
 Architecture: any
 Depends: ${misc:Depends}, shinken-common
 Breaks: shinken (<< 2~), shinken-common (<< 2~), shinken-core (<< 2~)
-Description: Shinken shinken-mod-named-pipe module
+Conflicts: shinken-module-commandfile
+Replaces: shinken-module-commandfile
+Description: Shinken named-pipe module
  Command pipe to submit command to Shinken
  .
  Shinken is a new, Nagios compatible monitoring tool, written in Python. The
