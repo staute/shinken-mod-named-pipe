@@ -1,0 +1,5 @@
+shinken-mod-named-pipe (1.4.1-1) UNRELEASED; urgency=medium
+
+  * New upstream version 1.4.1
+
+ -- Thibault Cohen <tcohen@tcohen-pc.mtl.sfl>  Mon, 18 Aug 2014 16:21:20 -0400
