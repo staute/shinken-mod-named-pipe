@@ -11,7 +11,7 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-shinken/shinken-mod-named-p
 Homepage: http://shinken.io/package/named-pipe
 
 Package: shinken-mod-named-pipe
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}, shinken-common
 Breaks: shinken (<< 2~), shinken-common (<< 2~), shinken-core (<< 2~)
 Conflicts: shinken-module-commandfile
