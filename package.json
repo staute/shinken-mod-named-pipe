@@ -1,0 +1,24 @@
+{
+  "name": "named-pipe",
+  "types": ["module"],
+  "version": "1.4.1",
+  "homepage": "http://github.com/shinken-monitoring/mod-named-pipe",
+  "author": "Jean Gabès",
+  "description": "Command pipe to submit command to Shinken",
+  "contributors": [
+    {
+      "name": "Jean Gabès",
+      "email": "naparuba@gmail.com"
+    }
+  ],
+  "repository": "https://github.com/shinken-monitoring/mod-named-pipe",
+  "keywords": [
+    "module",
+    "arbiter",
+    "pipe"
+  ],
+  "dependencies": {
+    "shinken": ">=1.4"
+  },
+  "license": "AGPL"
+}
